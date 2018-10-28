@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index" ,
+       "pages/nav/nav"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "京东购物",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./pages/images/12.png",
+        "selectedIconPath": "./pages/images/12.png"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "text": "分类",
+        "iconPath": "./pages/images/2.png",
+        "selectedIconPath": "./pages/images/2.png"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "text": "购物圈",
+        "iconPath": "./pages/images/14.png",
+        "selectedIconPath": "./pages/images/14.png"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "text": "购物车",
+        "iconPath": "./pages/images/cart1.png",
+        "selectedIconPath": "./pages/images/cart.png"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "text": "购物车",
+        "iconPath": "./pages/images/user.png",
+        "selectedIconPath": "./pages/images/User1.png"
+      }
+    ]
+  }
+}

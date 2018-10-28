@@ -1,0 +1,73 @@
+<!--pages/nav/nav.wxml-->
+<view class="search">
+  <input type='text' placeholder='搜索京东商品'></input>
+</view>
+<view class="side_bar">
+<scroll-view class="csroll" scroll-y="true">
+<view class="containner">
+<text class="active">热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ <text>热搜推荐</text>
+ <text>生活充值</text>
+ </view>
+ </scroll-view>   
+</view>
+
+<view class="section">
+<view class="top_banner">
+  <image src="{{class_img}}"></image>
+</view>
+<view class="goods_info">
+<text>热门搜索</text>
+</view>
+<view class="goods_display clearfix">
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>牛奶</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+</view>
+<view class="goods_display clearfix">
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>牛奶</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+</view>
+<view class="goods_display clearfix">
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+<image src='{{goods_img}}'></image>
+<text>牛奶</text>
+<image src='{{goods_img}}'></image>
+<text>零食</text>
+</view>
+</view>

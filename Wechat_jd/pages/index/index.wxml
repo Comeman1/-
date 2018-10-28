@@ -1,0 +1,150 @@
+<!--pages/index/index.wxml-->
+<!-- 头部轮播部分 -->
+<swiper autoplay="true" indicator-dots="false" indicator-color="#ccc" indicator-active-color="gray">
+  <swiper-item>
+      <image src='{{img_1}}'></image>
+  </swiper-item>
+<swiper-item>
+      <image src='{{img_2}}'></image>
+  </swiper-item>
+  <swiper-item>
+       <image src='{{img_3}}'></image>
+  </swiper-item>
+
+  <swiper-item>
+      <image src='{{img_4}}'></image>
+  </swiper-item>
+</swiper>
+<!-- 广告部分 -->
+<view class="nav">
+<view class="middle_banner">
+  <image src='{{img_banner}}'></image>
+</view>
+
+<!-- 导航部分 -->
+<scroll-view scroll-x="true" >
+<view class="containner">
+<view class="nav_wraper clearfix" >
+<view class="info">
+      <image src='../images/9.png'></image>
+      <text >领优惠券</text>
+</view>
+  <view class="info">
+      <image src='../images/8.png'></image>
+       <text >9.9元拼</text>
+  </view>
+  <view class="info">
+      <image src='../images/7.png'></image>
+      <text>找折扣</text>
+  </view>
+  <view class="info">
+      <image src='../images/1.png'></image>
+       <text>唯品会</text>
+  </view>
+
+  <view class="info">
+     <image src='../images/4.png'></image>
+      <text >领京豆</text>  
+  </view> 
+</view>
+
+
+
+<view class="nav_wraper clearfix">
+<view class="info">
+      <image src='../images/11.png'></image>
+      <text >签到领红包</text>
+</view>
+  <view class="info">
+      <image src='../images/5.png'></image>
+       <text >京东时尚</text>
+  </view>
+  <view class="info">
+      <image src='../images/3.png'></image>
+      <text>京东超市</text>
+  </view>
+  <view class="info">
+      <image src='../images/10.png'></image>
+       <text>家具家族</text>
+  </view>
+
+  <view class="info">
+     <image src='../images/2.png'></image>
+      <text >全部频道</text>  
+  </view> 
+</view>
+
+<view class="nav_wraper clearfix">
+<view class="info">
+      <image src='../images/11.png'></image>
+      <text >签到领红包</text>
+</view>
+  <view class="info">
+      <image src='../images/5.png'></image>
+       <text >京东时尚</text>
+  </view>
+  <view class="info">
+      <image src='../images/3.png'></image>
+      <text>京东超市</text>
+  </view>
+  <view class="info">
+      <image src='../images/10.png'></image>
+       <text>家具家族</text>
+  </view>
+
+  <view class="info">
+     <image src='../images/2.png'></image>
+      <text >全部频道</text>  
+  </view> 
+</view>
+
+
+
+<view class="nav_wraper">
+<view class="info">
+      <image src='../images/11.png'></image>
+      <text >签到领红包</text>
+</view>
+  <view class="info">
+      <image src='../images/5.png'></image>
+       <text >京东时尚</text>
+  </view>
+  <view class="info">
+      <image src='../images/3.png'></image>
+      <text>京东超市</text>
+  </view>
+  <view class="info">
+      <image src='../images/10.png'></image>
+       <text>家具家族</text>
+  </view>
+
+  <view class="info">
+     <image src='../images/2.png'></image>
+      <text >全部频道</text>  
+  </view> 
+</view>
+
+
+</view>
+</scroll-view>
+<view class="nav_footer">
+<view>
+     <text>购物</text>
+  </view>
+  <view>
+     <text>头条</text>
+     <image class="arrow" src="../images/13.png"></image>
+</view>
+<swiper class="car"  autoplay="true" display-multiple-items="1.5"> 
+<swiper-item class="footer_img" >
+  <image class="active" src='{{img_foot}}'></image>
+</swiper-item>
+<swiper-item class="footer_img">
+  <image src='{{img_foot}}'></image>
+</swiper-item>
+<swiper-item class="footer_img">
+  <image src='{{img_foot}}'></image>
+</swiper-item>
+</swiper>
+</view>
+</view>
